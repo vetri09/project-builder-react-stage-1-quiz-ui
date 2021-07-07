@@ -1,0 +1,46 @@
+.quiz-container{
+    height: 100vh;
+}
+.quiz-box{
+    background-color: white;
+    border: 3px solid cyan;
+    margin: auto;
+    text-align: center;
+    width: 1000px;
+}
+.quiz-heading{
+    font-weight: 100;
+    font-size: 40px;
+}
+.quiz-question{
+    font-weight: 100;   
+    margin-bottom: 40px;
+}
+.quiz-choices{
+    margin-bottom: 25px;
+}
+.quiz-choices button{
+    background-color: rgb(49, 153, 250);
+    border: none;
+    border-radius: 20px;
+    color: white;
+    padding: 12px 20px;
+    margin: 0px 15px 25px 15px;
+    font-weight: 100;   
+    width: 400px;
+}
+.quiz-changes button{
+    border: none;
+    color: white;
+    padding: 7px 20px;
+    margin: 0px 10px 50px 10px;
+}
+.blue{
+    background-color: rgb(23, 119, 209);
+}
+.green{
+    background-color: rgb(60, 124, 60);
+}
+.red{
+    background-color: rgb(240, 66, 66);
+}

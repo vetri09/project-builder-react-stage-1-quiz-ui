@@ -1,0 +1,76 @@
+.result{
+    text-align: center;
+}
+.result-correct{
+    width: 100px;
+    height: 100px;
+    border: 10px solid rgb(0, 182, 0);
+    border-radius: 50%;
+    margin: auto;
+}
+.result-correct::before{
+    margin-top: 5px;
+    content: "";
+    display: inline-block;
+    width: 20px;
+    height: 70px;
+    border: 5px solid rgb(0, 182, 0);
+    border-width: 0px 7px 7px 0px;
+    transform: rotate(50deg);
+}
+.result-text{
+    font-size: 50px;
+    color: rgb(0, 182, 0);
+}
+.result-box{
+    background-color: white;
+    width: 800px;
+    padding: 40px 0px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+.result-info{
+    font-size: 40px;
+    font-weight: 100;
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
+.result-score{
+    color: rgb(0, 87, 218);
+    font-size: 60px;
+    font-weight: 200;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+.result-details{
+    margin: auto;
+    width: 80%;
+}
+.result-detail{
+    color: rgb(63, 63, 63);
+    display: flex;
+    justify-content: space-between;
+}
+.result-detail p{
+    margin: 0px;
+}
+.result-after{
+    width: 50%;
+    margin: auto;
+    margin-bottom: 50px;
+}
+.result-play-btn{
+    border: 1px solid rgb(75, 147, 255);
+    background-color: transparent;
+    color: rgb(75, 147, 255);
+    outline: none;
+    font-size: 18px;
+    margin-right: 30px;
+}
+.result-home-btn{
+    border: 1px solid green;
+    background-color: transparent;
+    color: green;
+    outline: none;
+    font-size: 18px;
+}
